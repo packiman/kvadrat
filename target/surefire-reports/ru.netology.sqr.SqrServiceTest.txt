@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ru.netology.sqr.SqrServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in ru.netology.sqr.SqrServiceTest
+calcSqrPos{int, int, int}[2]  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <3>
+	at ru.netology.sqr.SqrServiceTest.calcSqrPos(SqrServiceTest.java:25)
+
+calcSqrPos{int, int, int}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <11> but was: <10>
+	at ru.netology.sqr.SqrServiceTest.calcSqrPos(SqrServiceTest.java:25)
+
